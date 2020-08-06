@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Batoul Taki</title>
+  <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+  <style>
+  body {
+    background: #EBEDEF;
+    font-family: "Barlow Condensed", Helvetica;
+    font-size: 1.5vw;
+    color: #000000;
+    margin: 0;
+  }
+  @media (min-aspect-ratio: 3/2) and (min-width: 21cm) {
+    body {font-size: 1.8vw}
+  }
+  @media (min-aspect-ratio: 3/2) and (max-width: 21cm) {
+    body {font-size: .378cm}
+  }
+  @media (max-aspect-ratio: 3/2) and (min-height: 14cm) {
+    body {font-size: 2.7vh}
+  }
+  @media (max-aspect-ratio: 3/2) and (max-height: 14cm) {
+    body {font-size: .378cm}
+  }
+  div {
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+  }
+  img {
+    display: block;
+    width: 20em;
+    max-width: 25%;
+    border-radius: 50%;
+    margin: 0 auto 1em auto;
+  }
+  h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+  }
+  h2 {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 1em 0;
+    color:#1E40A8  ;
+  }
+    
+  h3 {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 0.5em 0;
+    color:#000000;
+  }
+    
+  p{
+    font-size: 0.75em;
+    text-align: center;
+    width: 35em;
+    max-width: 100%;
+    margin: 0 auto 0 auto;
+  }
+  a {
+    text-decoration: none;
+    color: #1E40A8;
+  }
+  </style>
+</head>
+<body>
+  <div>
+    <h1>Batoul Taki</h1>
+    <h2>Graduate Research Assistant @Rutgers University</h2>
+    <h2>GHC 2020 Scholar</h2>
+    <img src="IMG_20190609_115409.jpg">
+    <p>Connect via <a href="https://www.linkedin.com/in/batoultaki">LinkedIn</a>. Read my <a href="https://drive.google.com/file/d/1AJuxsoWSxVX-f2bN7tZ5jsdM1VjVwWoP/view?usp=sharing">Resume</a>. </p>
+    <p>View my publications on <a href="https://scholar.google.com/citations?user=KlA0y1wAAAAJ&sortby=pubdate">Google Scholar</a>, & my projects on <a href="https://github.com/batoultaki">GitHub</a>.</p>
+  </div>
+</body>
+</html>
